@@ -21,11 +21,32 @@ h1 {
     border: 1px solid #900;
     background-color: #ffc;
   }
-  
-  #trHeader {
-    text-decoration: underline;
-    color: #900;
+  .box {
+    display: flex;
+    align-items: stretch;
   }
+  .flexbox-container{
+    display: flex;
+}
+  .h1{
+      color: red;
+}
+
+  .flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+    }
+    .flexbox-item-1{
+    min-height: 100px;
+    }
+    .flexbox-item-2 {
+    min-height: 200px;
+    }
+    .flexbox-item-3 {
+    min-height: 300px;
+    }
   
   .centerCell {
     text-align: center;
