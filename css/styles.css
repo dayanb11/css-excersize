@@ -18,15 +18,12 @@ h1 {
   td {
     padding-left: .5em;
     padding-right: .5em;
-    border: 1px solid #900;
-    background-color: #ffc;
-  }
-  .box {
-    display: flex;
-    align-items: stretch;
+   
   }
   .flexbox-container{
     display: flex;
+    border: 1px solid #900;
+    background-color: #ffc;
 }
   .h1{
       color: red;
